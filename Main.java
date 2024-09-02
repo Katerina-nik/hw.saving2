@@ -9,9 +9,9 @@ public class Main {
         GameProgress gameProgress2 = new GameProgress(100, 6, 5, 244.67);
         GameProgress gameProgress3 = new GameProgress(32, 6, 6, 556.23);
 
-        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save1", gameProgress1);
-        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save2", gameProgress2);
-        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save3", gameProgress3);
+        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save1.dat", gameProgress1);
+        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save2.dat", gameProgress2);
+        saveGame("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save3.dat", gameProgress3);
         ArrayList<String> list = new ArrayList<>();
         list.add("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save1.dat");
         list.add("/Users/ekaterinapyhtina/Desktop/Games/saveGames/save2.dat");
